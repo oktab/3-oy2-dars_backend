@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="max-w-[750px] mx-auto">
+        <div class="flex gap-[68px] justify-center mt-4">
+            <input id="searchInput" type="text" class="w-[209px] h-[36px] rounded-[6px] text-[black]"
+                placeholder="Search your card">
+                <button class="btn light-btn h-[37px] bg-orange-500 text-white w-[131px] rounded-[5px]"
+                    onclick="lightMode()">Light Mode</button>
+                <button class="btn dark-btn h-[37px] bg-black text-white w-[131px] rounded-[5px]"
+                    onclick="darkMode()" id="dark">Dark Mode</button>
+            </div>
+        <div class="flex items-center flex-wrap gap-[50px] mx-auto pt-[50px]" id="row"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
